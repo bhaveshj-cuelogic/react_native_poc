@@ -128,14 +128,14 @@ project.xcworkspace
 
 # Gradle
 /build/
-# /RNTester/android/app/build/
-# /RNTester/android/app/gradle/
-# /RNTester/android/app/gradlew
-# /RNTester/android/app/gradlew.bat
-# /ReactAndroid/build/
-# /ReactAndroid/gradle/
-# /ReactAndroid/gradlew
-# /ReactAndroid/gradlew.bat
+/RNTester/android/app/build/
+/RNTester/android/app/gradle/
+/RNTester/android/app/gradlew
+/RNTester/android/app/gradlew.bat
+/ReactAndroid/build/
+/ReactAndroid/gradle/
+/ReactAndroid/gradlew
+/ReactAndroid/gradlew.bat
 
 # Buck
 .buckd
@@ -184,16 +184,6 @@ package-lock.json
 /template/ios/Podfile.lock
 /RNTester/Gemfile.lock
 
-
-
-
-
-
-
-
-
-
-
 # OSX
 #
 .DS_Store
@@ -221,10 +211,10 @@ project.xcworkspace
 # Android/IntelliJ
 #
 build/
-.idea
-.gradle
-local.properties
-*.iml
+# .idea
+# .gradle
+# local.properties
+# *.iml
 
 # node.js
 #
@@ -256,4 +246,4 @@ buck-out/
 VoxImplantDemo.xcworkspace
 VoximplantDemo.xcworkspace
 
-android/app/google-services.json
+#android/app/google-services.json
