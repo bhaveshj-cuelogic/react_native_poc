@@ -153,9 +153,9 @@ buck-out
 
 # Android
 .idea
-.gradle
-local.properties
-*.iml
+# .gradle
+# local.properties
+# *.iml
 #/android/
 
 # Node
